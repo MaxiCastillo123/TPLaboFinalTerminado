@@ -1,0 +1,229 @@
+{
+  "clientes" : [ {
+    "tipo" : "cliente",
+    "usuario" : "andrea",
+    "contrasena" : "123",
+    "nombre" : "Andrea",
+    "apellido" : "Barcala",
+    "genero" : "F",
+    "dni" : "34851240",
+    "domicilio" : "Friuli 123",
+    "cantDeCompras" : 1,
+    "activo" : true
+  }, {
+    "tipo" : "cliente",
+    "usuario" : "maxi",
+    "contrasena" : "123",
+    "nombre" : "Maximiliano",
+    "apellido" : "Castillo",
+    "genero" : "M",
+    "dni" : "37623895",
+    "domicilio" : "El cano 3852",
+    "cantDeCompras" : 1,
+    "activo" : true
+  }, {
+    "tipo" : "cliente",
+    "usuario" : "vicky",
+    "contrasena" : "123",
+    "nombre" : "Victoria",
+    "apellido" : "Cabo",
+    "genero" : "F",
+    "dni" : "38591237",
+    "domicilio" : "Piedra buena 523",
+    "cantDeCompras" : 2,
+    "activo" : false
+  }, {
+    "tipo" : "cliente",
+    "usuario" : "emiliano",
+    "contrasena" : "123",
+    "nombre" : "Sassso",
+    "apellido" : "Sasso",
+    "genero" : "M",
+    "dni" : "373889564",
+    "domicilio" : "Misiones 344",
+    "cantDeCompras" : 1,
+    "activo" : true
+  } ],
+  "productos" : [ {
+    "nombre" : "Gaseosa",
+    "precio" : 460.0,
+    "stock" : 97,
+    "id" : 1
+  }, {
+    "nombre" : "Galletitas",
+    "precio" : 264.5,
+    "stock" : 42,
+    "id" : 2
+  }, {
+    "nombre" : "Cafe",
+    "precio" : 1782.5,
+    "stock" : 95,
+    "id" : 3
+  }, {
+    "nombre" : "Azucar",
+    "precio" : 517.5,
+    "stock" : 55,
+    "id" : 4
+  }, {
+    "nombre" : "Yerba",
+    "precio" : 1380.0,
+    "stock" : 76,
+    "id" : 5
+  } ],
+  "facturas" : [ {
+    "usuario" : {
+      "tipo" : "cliente",
+      "usuario" : "andrea",
+      "contrasena" : "123",
+      "nombre" : "Andrea",
+      "apellido" : "Barcala",
+      "genero" : "F",
+      "dni" : "34851240",
+      "domicilio" : "Friuli 123",
+      "cantDeCompras" : 1,
+      "activo" : true
+    },
+    "changuito" : {
+      "2" : {
+        "nombre" : "Galletitas",
+        "precio" : 230.0,
+        "stock" : 3,
+        "id" : 2
+      },
+      "5" : {
+        "nombre" : "Yerba",
+        "precio" : 1200.0,
+        "stock" : 3,
+        "id" : 5
+      }
+    },
+    "fecha" : "2023-06-21",
+    "precioFinal" : 3861.0,
+    "metodoDePago" : "EFECTIVO"
+  }, {
+    "usuario" : {
+      "tipo" : "cliente",
+      "usuario" : "vicky",
+      "contrasena" : "123",
+      "nombre" : "Victoria",
+      "apellido" : "Cabo",
+      "genero" : "F",
+      "dni" : "38591237",
+      "domicilio" : "Piedra buena 523",
+      "cantDeCompras" : 2,
+      "activo" : true
+    },
+    "changuito" : {
+      "2" : {
+        "nombre" : "Galletitas",
+        "precio" : 230.0,
+        "stock" : 4,
+        "id" : 2
+      },
+      "3" : {
+        "nombre" : "Cafe",
+        "precio" : 1550.0,
+        "stock" : 1,
+        "id" : 3
+      }
+    },
+    "fecha" : "2023-06-21",
+    "precioFinal" : 2470.0,
+    "metodoDePago" : "DEBITO"
+  }, {
+    "usuario" : {
+      "tipo" : "cliente",
+      "usuario" : "vicky",
+      "contrasena" : "123",
+      "nombre" : "Victoria",
+      "apellido" : "Cabo",
+      "genero" : "F",
+      "dni" : "38591237",
+      "domicilio" : "Piedra buena 523",
+      "cantDeCompras" : 2,
+      "activo" : true
+    },
+    "changuito" : {
+      "1" : {
+        "nombre" : "Gaseosa",
+        "precio" : 400.0,
+        "stock" : 6,
+        "id" : 1
+      }
+    },
+    "fecha" : "2023-06-21",
+    "precioFinal" : 2160.0,
+    "metodoDePago" : "EFECTIVO"
+  }, {
+    "usuario" : {
+      "tipo" : "cliente",
+      "usuario" : "maxi",
+      "contrasena" : "123",
+      "nombre" : "Maximiliano",
+      "apellido" : "Castillo",
+      "genero" : "M",
+      "dni" : "37623895",
+      "domicilio" : "El cano 3852",
+      "cantDeCompras" : 1,
+      "activo" : true
+    },
+    "changuito" : {
+      "3" : {
+        "nombre" : "Cafe",
+        "precio" : 1550.0,
+        "stock" : 4,
+        "id" : 3
+      },
+      "5" : {
+        "nombre" : "Yerba",
+        "precio" : 1200.0,
+        "stock" : 1,
+        "id" : 5
+      }
+    },
+    "fecha" : "2023-06-21",
+    "precioFinal" : 8140.0,
+    "metodoDePago" : "CREDITO"
+  }, {
+    "usuario" : {
+      "tipo" : "cliente",
+      "usuario" : "emiliano",
+      "contrasena" : "123",
+      "nombre" : "Sassso",
+      "apellido" : "Sasso",
+      "genero" : "M",
+      "dni" : "373889564",
+      "domicilio" : "Misiones 344",
+      "cantDeCompras" : 1,
+      "activo" : true
+    },
+    "changuito" : {
+      "1" : {
+        "nombre" : "Gaseosa",
+        "precio" : 460.0,
+        "stock" : 2,
+        "id" : 1
+      },
+      "2" : {
+        "nombre" : "Galletitas",
+        "precio" : 264.5,
+        "stock" : 1,
+        "id" : 2
+      },
+      "4" : {
+        "nombre" : "Azucar",
+        "precio" : 517.5,
+        "stock" : 5,
+        "id" : 4
+      }
+    },
+    "fecha" : "2023-06-21",
+    "precioFinal" : 4149.2,
+    "metodoDePago" : "CREDITO"
+  } ],
+  "encargado" : {
+    "tipo" : "encargado",
+    "usuario" : "user",
+    "contrasena" : "123"
+  }
+}
